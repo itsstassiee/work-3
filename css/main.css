@@ -10,7 +10,9 @@ body {
     --blackberry: #4D2D52;
     --tint: #F08CAE;
     --white: #ffffff;
+    --blue: #1f78c1;
 }
+
 
 
 .list {
@@ -55,6 +57,16 @@ ol {
     margin-top: 0;
     padding-left: 0;
     margin-bottom: 0;
+}
+
+.link {
+    color: var(--blue);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link:hover {
+    color: var(--tint);
 }
 
 img {
@@ -140,6 +152,7 @@ img {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+    padding-right: 20px;
 }
 
 .list-journalist {
@@ -173,12 +186,34 @@ img {
 
 .footer {
     background-color: var(--main-color);
+    border-radius: 10px 10px 0px 0px;
+    padding: 30px 30px 20px 30px;
 }
 
 .app-list-icon {
     display: flex;
+    gap: 14px;
+    margin-top: 10px;
 }
 
-.svg {
+.list-div {
+    color: var(--white);
+}
+
+.container-3 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.list-div {
+    font-size: 14px;
+}
+
+.li-footer {
+    padding-top: 10px;
+}
+
+.link-social-items {
     fill: var(--white);
 }
