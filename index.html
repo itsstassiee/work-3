@@ -11,30 +11,33 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orelega+One&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <header class="header">
       <div class="wrapper">
         <div class="header_wrapper">
           <div class="wrapper_logo">
-            <a href="index.html" class="wrapper_logo_link">
-              <img src="./image/logo.png" alt="logo" width="64" height="64" />
+            <a href="index.html" class="wrapper_logo_link link">
+              <img src="./image/logo.svg" alt="logo" width="64" height="64" />
             </a>
-            <a href="index.html">Запорізький національний університет</a>
+            <a href="index.html" class="link hd-text"
+              >Запорізький національний університет</a
+            >
           </div>
           <nav class="header_nav">
-            <ul class="header_list-menu">
+            <ul class="header_list-menu list">
               <li class="header_item">
-                <a href="index.html" class="header_link">Головна</a>
+                <a href="index.html" class="header_link link">Головна</a>
               </li>
               <li class="header_item">
-                <a href="news.html" class="header_link">Новини</a>
+                <a href="news.html" class="header_link link">Новини</a>
               </li>
               <li class="header_item">
-                <a href="education.html" class="header_link">Навчання</a>
+                <a href="education.html" class="header_link link">Навчання</a>
               </li>
               <li class="header_item">
-                <a href="contacts.html" class="header_link">Контакти</a>
+                <a href="contacts.html" class="header_link link">Контакти</a>
               </li>
             </ul>
           </nav>
@@ -42,56 +45,73 @@
       </div>
     </header>
     <main class="main">
-      <h1 class="h1">Факультет журналістики</h1>
-      <a href="#" class="link">Костюк Віктор Володимирович</a>
-      <div class="list-journalist">
-        <ul class="list-p">
-          <li class="list-p-item">Декан факультету журналістики</li>
-          <li class="list-p-item">
-            Кандидат педагогічних наук, доцент кафедри журналістики
-          </li>
-          <li class="list-p-item">Адреса деканату: Корпус 2, ауд. 242</li>
-          <li class="list-p-item">Телефони: (061) 289-41-11</li>
-          <li class="list-p-item">
-            Email:
-            <a href="mailto:journalismznu@meta.ua">journalismznu@meta.ua</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <figure>
-          <img
-            src="./image/kostyuk.jpg"
-            alt="Декан факультету журналістики ЗНУ"
-            width="300"
-          />
-          <figcaption>
-            Декан факультету журналістики - Костюк Віктор Володимирович
-          </figcaption>
-        </figure>
-      </div>
-      <p class="text">
-        Факультет журналістики співпрацює з вищими навчальними закладами й
-        центрами професійної підготовки України, Польщі, Франції, Сполучених
-        Штатів Америки – всього понад 100 відомих університетів і медіа-центрів.
-        Тісні зв’язки встановлені з Florida State University, Washington Public
-        Radio.
-      </p>
-      <ul class="app-list">
-        <li class="app-item"><a href="#" class="app-link">Facebook</a></li>
-        <li class="app-item"><a href="#" class="app-link">Telegram</a></li>
-        <li class="app-item"><a href="#" class="app-link">Instagram</a></li>
-      </ul>
+      <h1 class="h">Факультет журналістики</h1>
       <div class="container">
+        <div>
+          <figure>
+            <img
+              src="./image/kostyuk.jpg"
+              alt="Декан факультету журналістики ЗНУ"
+              width="250"
+              class="image"
+            />
+            <figcaption class="text-fig">
+              <b>Декан факультету журналістики</b>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="list-journalist">
+          <h3 class="h3-list">Костюк Віктор Володимирович</h3>
+          <ul class="list-p list">
+            <li class="list-p-item">Декан факультету журналістики</li>
+            <li class="list-p-item">
+              Кандидат педагогічних наук, доцент кафедри журналістики
+            </li>
+            <li class="list-p-item">
+              <b>Адреса деканату: </b>Корпус 2, ауд. 242
+            </li>
+            <li class="list-p-item"><b>Телефони: </b>(061) 289-41-11</li>
+            <li class="list-p-item">
+              <b>Email:</b>
+              <a href="mailto:journalismznu@meta.ua" class="link"
+                >journalismznu@meta.ua</a
+              >
+            </li>
+          </ul>
+          <p class="text">
+            Факультет журналістики співпрацює з вищими навчальними закладами й
+            центрами професійної підготовки України, Польщі, Франції, Сполучених
+            Штатів Америки – всього понад 100 відомих університетів і
+            медіа-центрів. Тісні зв’язки встановлені з Florida State University,
+            Washington Public Radio.
+          </p>
+          <ul class="app-list list">
+            <li class="app-item">
+              <a href="#" class="app-link link">Facebook</a>
+            </li>
+            <li class="app-item">
+              <a href="#" class="app-link link">Telegram</a>
+            </li>
+            <li class="app-item">
+              <a href="#" class="app-link link">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h2 class="h">Наші переваги</h2>
+
+      <div class="container-2">
         <div class="card">
           <img
+            class="img-card"
             src="./image/znu.jfif"
             alt="Факультет журналістики Запорізького національного університету"
+            width="250"
+            height="250"
           />
+
           <div class="card-content">
-            <h3>
-              Факультет журналістики Запорізького національного університету
-            </h3>
+            <h3 class="h3">Факультет журналістики ЗНУ</h3>
             <p class="card-text">
               Факультет журналістики Запорізького національного університету —
               це простір творчості, свободи слова та професійного становлення
@@ -103,9 +123,16 @@
           </div>
         </div>
         <div class="card">
-          <img src="./image/card-2.jpg" alt="Історія та розвиток" />
+          <img
+            class="img-card"
+            src="./image/card-2.jpg"
+            alt="Історія та розвиток"
+            width="250"
+            height="250"
+          />
+
           <div class="card-content">
-            <h3>Історія та розвиток</h3>
+            <h3 class="h3">Історія та розвиток</h3>
             <p class="card-text">
               Факультет було створено з метою підготовки журналістів нового
               покоління - освічених, відповідальних, здатних критично мислити та
@@ -116,9 +143,15 @@
           </div>
         </div>
         <div class="card">
-          <img src="./image/card-3.jpg" alt="Викладачі та навчальний процес" />
+          <img
+            class="img-card"
+            src="./image/card-3.jpg"
+            alt="Викладачі та навчальний процес"
+            width="250"
+            height="250"
+          />
           <div class="card-content">
-            <h3>Викладачі та навчальний процес</h3>
+            <h3 class="h3">Викладачі та навчальний процес</h3>
             <p class="card-text">
               Викладацький склад факультету - це кандидати та доктори наук,
               доценти, практикуючі журналісти, редактори, телеведучі. Вони
@@ -128,9 +161,16 @@
           </div>
         </div>
         <div class="card">
-          <img src="./image/card-4.jpg" alt="Практика та студентські медіа" />
+          <img
+            class="img-card"
+            src="./image/card-4.jpg"
+            alt="Практика та студентські медіа"
+            width="250"
+            height="250"
+          />
+
           <div class="card-content">
-            <h3>Практика та студентські медіа</h3>
+            <h3 class="h3">Практика та студентські медіа</h3>
             <p class="card-text">
               На факультеті діє низка навчальних медіапроєктів: університетська
               газета, онлайн-портал, студентське радіо та телестудія. Це дає
@@ -143,7 +183,7 @@
     </main>
     <footer class="footer">
       <div class="footer-div-left">
-        <ul class="list-footer-div">
+        <ul class="list-footer-div list">
           <li class="list-div">
             © 2018 ЗНУ Запорізький національний університет, 69011, м.
             Запоріжжя, вул. Університетська, 66
@@ -155,45 +195,50 @@
             Приймальна комісія тел. (061) 228-75-38 та (061) 289-12-68
           </li>
           <li class="list-div">
-            Офіційна пошта<a href="mailto:znu@znu.edu.ua" class="mail">
+            Офіційна пошта<a href="mailto:znu@znu.edu.ua" class="mail link">
               znu@znu.edu.ua</a
             >
           </li>
         </ul>
       </div>
       <div class="footer-div-right">
-        <ul class="list-footer-div">
+        <ul class="list-footer-div list">
           <li class="list-div">
             Документообіг
-            <a href="mailto:docflow.znu.edu.ua" class="mail"
+            <a href="mailto:docflow.znu.edu.ua" class="mail link"
               >docflow.znu.edu.ua</a
             >
           </li>
           <li class="list-div">
             Електронна пошта
-            <a href="mailto:mail.znu.edu.ua" class="mail">mail.znu.edu.ua</a>
+            <a href="mailto:mail.znu.edu.ua" class="mail link"
+              >mail.znu.edu.ua</a
+            >
           </li>
           <li class="list-div">
             Електронна скринька довіри
-            <a href="mailto:dovira@znu.edu.ua" class="mail"
+            <a href="mailto:dovira@znu.edu.ua" class="mail link"
               >dovira@znu.edu.ua</a
             >
           </li>
           <li class="list-div">
             Технічна підтримка (звернення)
-            <a href="mailto:help.znu.edu.ua" class="mail">help.znu.edu.ua</a>
+            <a href="mailto:help.znu.edu.ua" class="mail link"
+              >help.znu.edu.ua</a
+            >
           </li>
           <li class="list-div">
             Технічна підтримка
-            <a href="mailto:webmaster@znu.edu.ua" class="mail">
+            <a href="mailto:webmaster@znu.edu.ua" class="mail link">
               webmaster@znu.edu.ua</a
             >
           </li>
         </ul>
-        <ul class="app-list-icon">
+        <ul class="app-list-icon list">
           <li class="app-icon">
-            <a href="#" class="icon">
+            <a href="#" class="icon link">
               <img
+                class="svg"
                 src="./image/twitter-154-svgrepo-com.svg"
                 alt="Twitter"
                 width="22"
@@ -202,8 +247,9 @@
             </a>
           </li>
           <li class="app-icon">
-            <a href="#" class="icon">
+            <a href="#" class="icon link">
               <img
+                class="svg"
                 src="./image/facebook-svgrepo-com.svg"
                 alt="Facebook"
                 width="22"
@@ -212,8 +258,9 @@
             </a>
           </li>
           <li class="app-icon">
-            <a href="#" class="icon">
+            <a href="#" class="icon link">
               <img
+                class="svg"
                 src="./image/telegram-alt-svgrepo-com.svg"
                 alt="Telegram"
                 width="22"
@@ -222,8 +269,9 @@
             </a>
           </li>
           <li class="app-icon">
-            <a href="#" class="icon">
+            <a href="#" class="icon link">
               <img
+                class="svg"
                 src="./image/instagram-svgrepo-com.svg"
                 alt="Instagram"
                 width="22"
@@ -232,8 +280,9 @@
             </a>
           </li>
           <li class="app-icon">
-            <a href="#" class="icon">
+            <a href="#" class="icon link">
               <img
+                class="svg"
                 src="./image/youtube-svgrepo-com.svg"
                 alt="YOUTUBE"
                 width="22"
@@ -242,8 +291,9 @@
             </a>
           </li>
           <li class="app-icon">
-            <a href="#" class="icon">
+            <a href="#" class="icon link">
               <img
+                class="svg"
                 src="./image/brand-tiktok-sq-svgrepo-com.svg"
                 alt="TikTok"
                 width="22"
