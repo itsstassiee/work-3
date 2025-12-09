@@ -8,33 +8,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orelega+One&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <header class="header">
       <div class="wrapper">
         <div class="header_wrapper">
           <div class="wrapper_logo">
-            <a href="index.html" class="wrapper_logo_link">
-              <img src="./image/logo.png" alt="logo" width="64" height="64" />
+            <a href="index.html" class="wrapper_logo_link link">
+              <img src="./image/logo.svg" alt="logo" width="64" height="64" />
             </a>
-            <a href="index.html">Запорізький національний університет</a>
+            <a href="index.html" class="link hd-text"
+              >Запорізький національний університет</a
+            >
           </div>
           <nav class="header_nav">
-            <ul class="header_list-menu">
+            <ul class="header_list-menu list">
               <li class="header_item">
-                <a href="index.html" class="header_link">Головна</a>
+                <a href="index.html" class="header_link link">Головна</a>
               </li>
               <li class="header_item">
-                <a href="news.html" class="header_link">Новини</a>
+                <a href="news.html" class="header_link link">Новини</a>
               </li>
               <li class="header_item">
-                <a href="education.html" class="header_link">Навчання</a>
+                <a href="education.html" class="header_link link">Навчання</a>
               </li>
               <li class="header_item">
-                <a href="contacts.html" class="header_link">Контакти</a>
+                <a href="contacts.html" class="header_link link">Контакти</a>
               </li>
             </ul>
           </nav>
@@ -43,119 +46,130 @@
     </header>
     <main></main>
     <footer class="footer">
-      <div class="footer-div-left">
-        <ul class="list-footer-div">
-          <li class="list-div">
-            © 2018 ЗНУ Запорізький національний університет, 69011, м.
-            Запоріжжя, вул. Університетська, 66
-          </li>
-          <li class="list-div">
-            Відділ діловодства та архіву тел./факс +38 (061) 228-75-08
-          </li>
-          <li class="list-div">
-            Приймальна комісія тел. (061) 228-75-38 та (061) 289-12-68
-          </li>
-          <li class="list-div">
-            Офіційна пошта<a href="mailto:znu@znu.edu.ua" class="mail">
-              znu@znu.edu.ua</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="footer-div-right">
-        <ul class="list-footer-div">
-          <li class="list-div">
-            Документообіг
-            <a href="mailto:docflow.znu.edu.ua" class="mail"
-              >docflow.znu.edu.ua</a
-            >
-          </li>
-          <li class="list-div">
-            Електронна пошта
-            <a href="mailto:mail.znu.edu.ua" class="mail">mail.znu.edu.ua</a>
-          </li>
-          <li class="list-div">
-            Електронна скринька довіри
-            <a href="mailto:dovira@znu.edu.ua" class="mail"
-              >dovira@znu.edu.ua</a
-            >
-          </li>
-          <li class="list-div">
-            Технічна підтримка (звернення)
-            <a href="mailto:help.znu.edu.ua" class="mail">help.znu.edu.ua</a>
-          </li>
-          <li class="list-div">
-            Технічна підтримка
-            <a href="mailto:webmaster@znu.edu.ua" class="mail">
-              webmaster@znu.edu.ua</a
-            >
-          </li>
-        </ul>
-        <ul class="app-list-icon">
-          <li class="app-icon">
-            <a href="#" class="icon">
-              <img
-                src="./image/twitter-154-svgrepo-com.svg"
-                alt="Twitter"
-                width="22"
-                height="22"
-              />
-            </a>
-          </li>
-          <li class="app-icon">
-            <a href="#" class="icon">
-              <img
-                src="./image/facebook-svgrepo-com.svg"
-                alt="Facebook"
-                width="22"
-                height="22"
-              />
-            </a>
-          </li>
-          <li class="app-icon">
-            <a href="#" class="icon">
-              <img
-                src="./image/telegram-alt-svgrepo-com.svg"
-                alt="Telegram"
-                width="22"
-                height="22"
-              />
-            </a>
-          </li>
-          <li class="app-icon">
-            <a href="#" class="icon">
-              <img
-                src="./image/instagram-svgrepo-com.svg"
-                alt="Instagram"
-                width="22"
-                height="22"
-              />
-            </a>
-          </li>
-          <li class="app-icon">
-            <a href="#" class="icon">
-              <img
-                src="./image/youtube-svgrepo-com.svg"
-                alt="YOUTUBE"
-                width="22"
-                height="22"
-              />
-            </a>
-          </li>
-          <li class="app-icon">
-            <a href="#" class="icon">
-              <img
-                src="./image/brand-tiktok-sq-svgrepo-com.svg"
-                alt="TikTok"
-                width="22"
-                height="22"
-              />
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="qr-code">
-        <img src="./image/qr.gif" alt="qr-code" />
+      <div class="container-3">
+        <div class="footer-div-left">
+          <ul class="list-footer-div list list-p">
+            <li class="list-div">
+              Відділ діловодства та архіву тел./факс +38 (061) 228-75-08
+            </li>
+            <li class="list-div">
+              Приймальна комісія тел. (061) 228-75-38 та (061) 289-12-68
+            </li>
+            <li class="list-div">
+              Офіційна пошта<a href="mailto:znu@znu.edu.ua" class="mail link">
+                znu@znu.edu.ua</a
+              >
+            </li>
+            <li class="list-div li-footer">
+              © 2018 ЗНУ Запорізький національний університет, 69011, м.
+              Запоріжжя, вул. Університетська, 66
+            </li>
+          </ul>
+        </div>
+        <div class="footer-div-right">
+          <ul class="list-footer-div list list-p">
+            <li class="list-div">
+              Документообіг
+              <a href="mailto:docflow.znu.edu.ua" class="mail link"
+                >docflow.znu.edu.ua</a
+              >
+            </li>
+            <li class="list-div">
+              Електронна пошта
+              <a href="mailto:mail.znu.edu.ua" class="mail link"
+                >mail.znu.edu.ua</a
+              >
+            </li>
+            <li class="list-div">
+              Електронна скринька довіри
+              <a href="mailto:dovira@znu.edu.ua" class="mail link"
+                >dovira@znu.edu.ua</a
+              >
+            </li>
+            <li class="list-div">
+              Технічна підтримка (звернення)
+              <a href="mailto:help.znu.edu.ua" class="mail link"
+                >help.znu.edu.ua</a
+              >
+            </li>
+            <li class="list-div">
+              Технічна підтримка
+              <a href="mailto:webmaster@znu.edu.ua" class="mail link">
+                webmaster@znu.edu.ua</a
+              >
+            </li>
+          </ul>
+          <ul class="list social-list">
+            <li class="social-link">
+              <a href="" class="link-social link">
+                <svg class="link-social-items" width="30" height="30">
+                  <path
+                    d="M2.89 2h14.23c.49 0 .88.39.88.88v14.24c0 .48-.39.88-.88.88h-4.08v-6.2h2.08l.31-2.41h-2.39V7.85c0-.7.2-1.18 1.2-1.18h1.28V4.51c-.22-.03-.98-.09-1.86-.09-1.85 0-3.11 1.12-3.11 3.19v1.78H8.46v2.41h2.09V18H2.89c-.49 0-.89-.4-.89-.88V2.88c0-.49.4-.88.89-.88z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="social-link">
+              <a href="" class="link-social link">
+                <svg class="link-social-items" width="30" height="30">
+                  <path
+                    fill="#ffffff"
+                    d="M23 9.71a8.5 8.5 0 0 0-.91-4.13a2.92 2.92 0 0 0-1.72-1A78.36 78.36 0 0 0 12 4.27a78.45 78.45 0 0 0-8.34.3a2.87 2.87 0 0 0-1.46.74c-.9.83-1 2.25-1.1 3.45a48.29 48.29 0 0 0 0 6.48a9.55 9.55 0 0 0 .3 2a3.14 3.14 0 0 0 .71 1.36a2.86 2.86 0 0 0 1.49.78a45.18 45.18 0 0 0 6.5.33c3.5.05 6.57 0 10.2-.28a2.88 2.88 0 0 0 1.53-.78a2.49 2.49 0 0 0 .61-1a10.58 10.58 0 0 0 .52-3.4c.04-.56.04-3.94.04-4.54ZM9.74 14.85V8.66l5.92 3.11c-1.66.92-3.85 1.96-5.92 3.08Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="social-link">
+              <a href="" class="link-social link">
+                <svg class="link-social-items" width="30" height="30">
+                  <path
+                    fill="#ffffff"
+                    d="M12 6.865A5.135 5.135 0 1 0 17.135 12A5.135 5.135 0 0 0 12 6.865Zm0 8.469A3.334 3.334 0 1 1 15.334 12A3.333 3.333 0 0 1 12 15.334Z"
+                  />
+                  <path
+                    fill="#ffffff"
+                    d="M21.94 7.877a7.333 7.333 0 0 0-.465-2.427a4.918 4.918 0 0 0-1.153-1.772a4.894 4.894 0 0 0-1.77-1.153a7.323 7.323 0 0 0-2.428-.464C15.058 2.012 14.717 2 12.001 2s-3.057.011-4.123.06a7.333 7.333 0 0 0-2.428.465a4.905 4.905 0 0 0-1.77 1.153A4.886 4.886 0 0 0 2.525 5.45a7.333 7.333 0 0 0-.464 2.427c-.05 1.066-.06 1.407-.06 4.123s.01 3.057.06 4.123a7.334 7.334 0 0 0 .464 2.427a4.888 4.888 0 0 0 1.154 1.772a4.917 4.917 0 0 0 1.771 1.153a7.338 7.338 0 0 0 2.428.464C8.944 21.988 9.285 22 12 22s3.057-.011 4.123-.06a7.333 7.333 0 0 0 2.427-.465a5.113 5.113 0 0 0 2.925-2.925a7.316 7.316 0 0 0 .465-2.427c.048-1.067.06-1.407.06-4.123s-.012-3.057-.06-4.123Zm-1.8 8.164a5.549 5.549 0 0 1-.343 1.857a3.311 3.311 0 0 1-1.898 1.898a5.522 5.522 0 0 1-1.857.344c-1.055.048-1.371.058-4.042.058s-2.986-.01-4.04-.058a5.526 5.526 0 0 1-1.857-.344a3.108 3.108 0 0 1-1.15-.748a3.085 3.085 0 0 1-.748-1.15a5.521 5.521 0 0 1-.344-1.857c-.048-1.054-.058-1.37-.058-4.04s.01-2.987.058-4.042a5.563 5.563 0 0 1 .344-1.857a3.107 3.107 0 0 1 .748-1.15a3.082 3.082 0 0 1 1.15-.748A5.523 5.523 0 0 1 7.96 3.86C9.014 3.81 9.331 3.8 12 3.8s2.987.011 4.042.059a5.564 5.564 0 0 1 1.857.344a3.31 3.31 0 0 1 1.898 1.898a5.523 5.523 0 0 1 .344 1.857c.048 1.055.058 1.37.058 4.041s-.01 2.986-.058 4.041ZM17.339 5.462Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="social-link">
+              <a href="" class="link-social link">
+                <svg class="link-social-items" width="30" height="30">
+                  <path
+                    d="M19.2,4.4L2.9,10.7c-1.1,0.4-1.1,1.1-0.2,1.3l4.1,1.3l1.6,4.8c0.2,0.5,0.1,0.7,0.6,0.7c0.4,0,0.6-0.2,0.8-0.4
+	c0.1-0.1,1-1,2-2l4.2,3.1c0.8,0.4,1.3,0.2,1.5-0.7l2.8-13.1C20.6,4.6,19.9,4,19.2,4.4z M17.1,7.4l-7.8,7.1L9,17.8L7.4,13l9.2-5.8
+	C17,6.9,17.4,7.1,17.1,7.4z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="social-link">
+              <a href="" class="link-social link">
+                <svg class="link-social-items" width="30" height="30">
+                  <path
+                    fill="#ffffff"
+                    fill-rule="evenodd"
+                    d="M20 3.894a8.299 8.299 0 0 1-2.357.636a4.062 4.062 0 0 0 1.804-2.234a8.298 8.298 0 0 1-2.605.98A4.13 4.13 0 0 0 13.847 2c-2.266 0-4.103 1.808-4.103 4.04c0 .316.036.624.106.92a11.71 11.71 0 0 1-8.457-4.22a3.974 3.974 0 0 0-.556 2.03a4.02 4.02 0 0 0 1.826 3.362a4.143 4.143 0 0 1-1.859-.505v.05c0 1.957 1.414 3.59 3.29 3.961a4.189 4.189 0 0 1-1.852.07c.522 1.604 2.037 2.772 3.833 2.805a8.317 8.317 0 0 1-5.096 1.73A8.42 8.42 0 0 1 0 16.185A11.747 11.747 0 0 0 6.29 18c7.547 0 11.674-6.155 11.674-11.492c0-.175-.004-.35-.012-.523A8.249 8.249 0 0 0 20 3.895Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="social-link">
+              <a href="" class="link-social link">
+                <svg class="link-social-items" width="30" height="30">
+                  <path
+                    d="M21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2Zm-3.281,8.725h0c-.109.011-.219.016-.328.017A3.571,3.571,0,0,1,14.4,9.129v5.493a4.061,4.061,0,1,1-4.06-4.06c.085,0,.167.008.251.013v2a2.067,2.067,0,1,0-.251,4.119A2.123,2.123,0,0,0,12.5,14.649l.02-9.331h1.914A3.564,3.564,0,0,0,17.719,8.5Z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="qr-code">
+          <img src="./image/qr.gif" alt="qr-code" width="150" />
+        </div>
       </div>
     </footer>
   </body>

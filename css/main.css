@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'montserrat';
     background-color: var(--white);
 
 }
@@ -103,6 +103,10 @@ img {
     padding-bottom: 10px;
 }
 
+.p {
+    font-size: 14px;
+}
+
 .list-p {
     line-height: 1.5;
 }
@@ -183,6 +187,14 @@ img {
     border-radius: 12px;
 }
 
+.logo {
+    fill: var(--white);
+    transition: 0.3s;
+}
+
+.logo {
+    fill: var(--tint)
+}
 
 .footer {
     background-color: var(--main-color);
@@ -190,11 +202,6 @@ img {
     padding: 30px 30px 20px 30px;
 }
 
-.app-list-icon {
-    display: flex;
-    gap: 14px;
-    margin-top: 10px;
-}
 
 .list-div {
     color: var(--white);
@@ -216,4 +223,17 @@ img {
 
 .link-social-items {
     fill: var(--white);
+    transition: 0.3s;
+}
+
+.link-social-items:hover {
+    fill: var(--tint);
+}
+
+
+
+.social-list {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
 }
